@@ -1,0 +1,27 @@
+import java.util.*;
+class Soma{
+	private String name;
+	private int age;
+	public void setname(String name){
+		this.name=name;
+	}
+	public void setage(int age){
+		this.age=age;
+	}
+	public String  getname(){
+	   return name;
+	}
+	public int getage(){
+		return age;
+	}
+}
+class Getset{
+	public static void main(String args[]){
+		Soma s1=new Soma();
+		s1.setname("Abantika");
+		System.out.println("Name="+s1.getname());
+		s1.setage(20);
+	System.out.println("age="++s1.getage());
+		
+	}
+}
